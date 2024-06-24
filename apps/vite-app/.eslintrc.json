@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "@infras/eslint-config-local/react"
+  ]
+}

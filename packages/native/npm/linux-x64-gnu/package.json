@@ -1,0 +1,19 @@
+{
+  "name": "@infras/native-linux-x64-gnu",
+  "private": true,
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "native.linux-x64-gnu.node",
+  "files": [
+    "native.linux-x64-gnu.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 16"
+  }
+}

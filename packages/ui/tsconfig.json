@@ -1,0 +1,10 @@
+{
+  "extends": "@infras/shared/configs/tsconfig.base.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": ["react", "vue"]
+}

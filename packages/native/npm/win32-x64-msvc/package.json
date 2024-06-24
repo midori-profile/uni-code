@@ -1,0 +1,19 @@
+{
+  "name": "@infras/native-win32-x64-msvc",
+  "private": true,
+  "version": "0.0.0",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "native.win32-x64-msvc.node",
+  "files": [
+    "native.win32-x64-msvc.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 16"
+  }
+}

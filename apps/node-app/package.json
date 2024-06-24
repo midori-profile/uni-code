@@ -1,0 +1,21 @@
+{
+  "name": "node-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js && node index.mjs",
+    "dev": "node index.js  && node index.mjs"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "@infras/ui": "workspace:*",
+    "@infras/native": "workspace:*",
+    "@infras/shared": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

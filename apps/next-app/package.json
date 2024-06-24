@@ -1,0 +1,32 @@
+{
+  "name": "next-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next dev",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@infras/shared": "workspace:*",
+    "@infras/eslint-config-local": "workspace:*",
+    "@infras/ui": "workspace:*",
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependenciesMeta": {
+    "@infras/ui": {
+      "injected": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "@types/react": "^17.0.37",
+    "eslint": "^8.4.1",
+    "eslint-config-next": "^13.0.0",
+    "typescript": "^4.5.4",
+    "windicss": "^3.5.1",
+    "windicss-webpack-plugin": "^1.7.2"
+  }
+}

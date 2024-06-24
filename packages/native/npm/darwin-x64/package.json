@@ -1,0 +1,19 @@
+{
+  "name": "@infras/native-darwin-x64",
+  "private": true,
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "native.darwin-x64.node",
+  "files": [
+    "native.darwin-x64.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 16"
+  }
+}
